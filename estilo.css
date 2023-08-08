@@ -1,0 +1,256 @@
+#imagem_fundo {
+    text-align: center;
+    background-color: rgb(91, 156, 54);
+    height: 100%;
+    background-size: cover;
+    
+}
+
+#lista1 {
+    padding-left: 90px;
+    float: left;
+    list-style: circle;
+    margin-top: 0%;
+}
+#lista2 {
+    padding-left: 90px;
+    float: left;
+    list-style: decimal;
+    margin-top: 0%;
+}
+#lista3 {
+    padding-left: 90px;
+    float: left;
+    list-style: circle;
+    margin-top: 0%;
+}
+
+
+
+.icone  {
+    width: 100%;
+
+}
+
+.icone2 {
+width: 20%;
+} 
+
+#titulo {
+
+    color: rgb(7, 9, 11);
+    padding-top: 10%;
+    font-size: 60px;
+    text-align: center;
+}
+
+#titulos {
+    color: rgb(47, 117, 7);
+    padding-top: 10%;
+    font-size: 60px;
+    text-align: center;
+
+}
+
+#titi {
+    color: rgb(47, 117, 7);
+    padding-top: 10%;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#subtitulo {
+    color: rgb(9, 12, 15);
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 20px;
+
+}
+
+
+.destaque2  {
+    background-color: rgb(198, 255, 190);
+    height:60%;
+}
+
+.destaque{
+    background-color: rgb(198, 255, 190);
+}
+.destaque3 {
+ background-color: rgb(198, 255, 190);
+ height: 80%;
+ width: 90%;
+}
+.destaque4{
+    background-color: rgb(198, 255, 190);
+}
+.destaque5{
+    background-color: rgb(198, 255, 190);
+}
+.destaque6{
+    background-color: rgb(198, 255, 190);
+}
+
+
+
+.coluna {
+    padding: 0 5%;
+    float: left;
+    position:relative;
+    
+}
+
+.dois {
+    width: 40%;
+    background-color: rgb(130, 203, 119);
+
+}
+
+.tres {
+    width: 100%;
+    padding: 0 5%;
+    text-align: center;
+
+}
+
+.cinco {
+    width: 40%;
+    background-color: rgb(130, 203, 119);
+}
+
+.quatro {
+    width: 100%;
+    background-color: rgb(235, 237, 117);
+    border-radius: 10px;
+    border: 2px rgb(211, 211, 211) solid;
+    background-color: rgb(135, 196, 107);
+    text-align: center;
+
+}
+
+.justificado {
+    text-align: justify;
+    font-style: normal;
+}
+
+.centralizado {
+    text-align: center;
+}
+
+@media all and (max-width:768px) {
+    #menu {
+        visibility: hidden;
+    }
+
+    .coluna .dois .tres .quatro .cinco {
+        display: block;
+        width: 80px;
+        padding: 0;
+        margin: 10px auto;
+        float: none;
+    }
+}
+
+ 
+
+.selecao {
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    background-color: rgb(198, 255, 190);
+}
+
+#ecopontos {
+    background-color: rgb(198, 255, 190);
+    text-align: center;
+    color: black;
+    font-size: 20px;
+}
+
+.imagem {
+    width: 100%;
+    height: 100%;
+}
+#logo {
+    width: 96px;
+    position: absolute;
+    top: 10px;
+    padding-left: 2%;
+}
+#menu {
+    float: right;
+    list-style: none;
+    margin-top: 0%;
+    color: rgb(31, 65, 31);
+    background-color: rgb(0, 0, 0);
+}
+
+header a {
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: aliceblue;
+    padding: 1px 3px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+}
+#menu2 {
+    background-color: aliceblue;
+}
+
+header {
+    background-color: black;
+    color: aliceblue;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: index 10; ;
+}
+li {
+    padding: 20 10 20 10;
+    float: right;
+}
+html, body {
+    margin: 0;
+
+}
+
+#lista {
+    padding: 20 10 20 10;
+    float: right;
+}
+
+#ecoo {
+    height: 80%;
+    width: 30%;
+}
+
+body {
+    background-color: rgb(198, 255, 190);
+}
+
+#ecopo {
+    background-color: rgb(168, 204, 163);
+    height: 80%;
+    width: 30%;
+    padding: 0 5%;
+}
+#maisum {
+    border-radius: 10px;
+    margin: 5px 0px 5px 0px;
+    padding: 10px 15px 10px 15px;
+    font-size: 20px;
+    border: 2px rgb(211, 211, 211) solid;
+    background-color: rgb(168, 204, 163);
+}
+#loco {
+    border-radius: 10px;
+    margin: 5px 0px 5px 0px;
+    padding: 10px 15px 10px 15px;
+    font-size: 20px;
+    border: 2px rgb(17, 7, 7) solid;
+    background-color: rgb(168, 204, 163);
+}
+.bom {
+    text-decoration: double;
+}
